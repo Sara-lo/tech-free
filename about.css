@@ -1,0 +1,128 @@
+body
+ {
+     margin: 0; 
+     height: 100%;
+    
+     background-color: black;
+ }
+h2
+{
+  position: absolute;
+  width: 5em;
+  height: 31px;
+  left: 1100px;
+  top: 38px; 
+  font-size: 30px; 
+  color: #ffffff;
+}
+
+h1
+ {
+ position: absolute;
+  width: 300px;
+  height: 31px;
+  left: 250px;
+  top: 38px; 
+  font-size: 3em; 
+  color: #ffffff;
+ 
+  
+ }
+a{
+    color: #000000;
+    outline: none;
+    text-decoration: none;
+}
+
+.logo
+{
+position: absolute;
+width: auto;
+height: auto;
+left: 70px;
+top: 43px;
+}
+.logo {
+    animation: rotation 10s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .logo
+  {
+  -moz-box-shadow: 0 0 5px #fff;
+  -webkit-box-shadow: 0 0 5px #fff;
+  box-shadow: 0px 0px 5px #fff;
+  }
+.para
+{
+    color: #ffffff;
+    text-align: justify;
+    text-justify: newspaper;
+    margin-left: 24px;
+    margin-right: 28px;
+   line-height: 30px;
+    font-size: 20px;
+    margin-top: 350px;
+}
+.end
+{
+   
+    color: #ffffff;
+    text-align: center;
+ 
+    
+}
+.div
+{
+  position: absolute;
+  left: 600px;
+  top: 70px;
+  animation: spin 18s ease infinite;
+    border-radius: 50%;
+    background-size: cover
+}
+@keyframes spin {
+  0% {
+      -webkit-transform: rotateY(0deg);
+      background-image: url("abtimg.png");
+  }
+
+  33.33% {
+      -webkit-transform: rotateY(360deg);
+      background-image: url("abtimg.png");
+  }
+
+  33.34% {
+      -webkit-transform: rotateY(0deg);
+      background-image: url("abtimg.png");
+  }
+
+  66.66% {
+      -webkit-transform: rotateY(360deg);
+      background-image: url("abtimg.png");
+  }
+
+  66.67% {
+      -webkit-transform: rotateY(0deg);
+      background-image: url("abtimg.png");
+  }
+  
+  100% {
+      -webkit-transform: rotateY(360deg);
+      background-image: url("abtimg.png");
+  }
+}    
+h2
+{
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px rgb(0, 0, 0), 0 0 82px rgb(12, 15, 14),0 0 92px rgb(0, 0, 0);
+	color: white;
+	font-size: 30px;
+	text-align: center;	 
+}
